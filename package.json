@@ -1,0 +1,17 @@
+{
+  "name": "weatherandtime",
+  "version": "1.0.0",
+  "description": "API that snatches weather and time and returns them",
+  "scripts": {
+    "api": "node api.js",
+    "test": "./node_modules/.bin/mocha runtest.js"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+        "mocha": "^5.2.0",
+        "chai": "^4.1.2",
+        "hapi": "^17.5.1",
+        "joi": "^13.4.0"
+  }
+}
